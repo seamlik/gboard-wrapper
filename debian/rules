@@ -1,0 +1,18 @@
+#!/usr/bin/make -f
+
+PATH_INSTALLED_IBUS_COMPONENTS = debian/ibus-gboard/usr/share/ibus/component
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	cargo build --release
+
+override_dh_auto_clean:
+	dh_auto_clean
+	cargo clean
+
+override_dh_install:
+	dh_install
+	mkdir --parents $(PATH_INSTALLED_IBUS_COMPONENTS)
+	cat ibus/data/gboard.xml | sed -E "s/@PATH_IBUS@/\/usr\/lib\/ibus/g" > $(PATH_INSTALLED_IBUS_COMPONENTS)/gboard.xml

@@ -1,0 +1,12 @@
+[package]
+authors = ["殷啟聰 | Kai-Chung Yan <seamlik@debian.org>"]
+categories = ["api-bindings"]
+description = "Google Input Tool REST client"
+edition = "2018"
+keywords = ["ibus", "input-method", "gboard"]
+license = "GPL-3"
+name = "gboard-wrapper"
+repository = "https://github.com/seamlik/gboard-wrapper"
+version = "0.1.0"
+
+[dependencies]

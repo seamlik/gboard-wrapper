@@ -1,0 +1,14 @@
+<component>
+  <description>GBoard Component</description>
+  <exec>@PATH_IBUS@/ibus-engine-gboard</exec>
+  <name>org.freedesktop.IBus.Gboard</name>
+  <textdomain>ibus-gboard</textdomain>
+    <engines>
+      <engine>
+        <layout>en</layout>
+        <longname>多種語言（Gboard）</longname>
+        <name>gboard:cantonese</name>
+        <textdomain>ibus-gboard</textdomain>
+      </engine>
+    </engines>
+</component>

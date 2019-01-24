@@ -1,0 +1,13 @@
+[package]
+authors = ["殷啟聰 | Kai-Chung Yan <seamlik@debian.org>"]
+edition = "2018"
+name = "ibus-engine-gboard"
+publish = false
+version = "0.1.0"
+
+[dependencies]
+dbus = "0.6.4"
+gboard-wrapper = { path = "../wrapper" }
+
+[build-dependencies]
+dbus-codegen = "0.3.0"

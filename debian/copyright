@@ -1,0 +1,8 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0
+
+Files: *
+Copyright: 2019, Kai-Chung Yan
+License: GPL-3
+
+License: GPL-3
+ This license can be found at </usr/share/common-licenses/GPL-3>.
