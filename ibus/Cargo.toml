@@ -11,3 +11,4 @@ gboard-wrapper = { path = "../wrapper" }
 
 [build-dependencies]
 dbus-codegen = "0.3.0"
+failure = "0.1.5"
