@@ -7,6 +7,7 @@ version = "0.1.0"
 
 [dependencies]
 dbus = "0.6.4"
+failure = "0.1.5"
 gboard-wrapper = { path = "../wrapper" }
 
 [build-dependencies]
